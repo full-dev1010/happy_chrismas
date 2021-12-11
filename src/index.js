@@ -5,14 +5,16 @@ import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 var BASE_URL_LOCAL = "http://localhost:5000/api/v1";
-var BASE_URL_SERVER = "http://localhost:3200/api/v1";
+var BASE_URL_SERVER = "https://www.compareplayerprops.com/api_xmas";
 window.BASE_URL = BASE_URL_SERVER;
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render( <
+    React.StrictMode >
+    <
+    App / >
+    <
+    /React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
