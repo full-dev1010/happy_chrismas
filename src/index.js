@@ -8,13 +8,11 @@ var BASE_URL_LOCAL = "http://localhost:5000/api/v1";
 var BASE_URL_SERVER = "https://www.compareplayerprops.com/api_xmas/api/v1";
 window.BASE_URL = BASE_URL_SERVER;
 
-ReactDOM.render( <
-    React.StrictMode >
-    <
-    App / >
-    <
-    /React.StrictMode>,
-    document.getElementById('root')
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
