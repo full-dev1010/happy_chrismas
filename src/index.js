@@ -5,7 +5,7 @@ import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 var BASE_URL_LOCAL = "http://localhost:5000/api/v1";
-var BASE_URL_SERVER = "https://www.compareplayerprops.com/api_xmas";
+var BASE_URL_SERVER = "https://www.compareplayerprops.com/api_xmas/api/v1";
 window.BASE_URL = BASE_URL_SERVER;
 
 ReactDOM.render( <
